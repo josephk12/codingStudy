@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+
+}
+
+#widshow {
+    display:grid; grid-template-columns: 1fr 1fr 1fr;
+    /* display는 보여지는 위치, grid는 간격 */
+}
+
+.card {
+    font-size: 25px;
+    color:chocolate;
+}
+
+.card_img {
+    width: 300px;
+    height: 300px;
+}
+
+.card_title {
+    color:rgb(14, 147, 114);
+}
+
+.card_button {
+    background-color: white;
+    border-radius: 5px;
+    border-color: gray;
+    font-size: 30px;
+    width: 120px;
+    height: 40px;
+    color:rgb(30, 176, 30);
+}
