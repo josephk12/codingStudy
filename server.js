@@ -8,7 +8,7 @@ function start(route, handle) {
 
       route(pathname, handle, response, queryData.productId);
 
-    }
+    } 
   
   http.createServer(onRequest).listen(8888); 
 }

@@ -6,7 +6,7 @@ const mariadb = require('./database/connect/mariadb');
 
 
 function main(response) {
-  console.log('main');
+  console.log('main');  
 
   mariadb.query("SELECT * FROM product", function(err, rows){
     console.log(rows);

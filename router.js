@@ -7,7 +7,7 @@ function route(pathname, handle, response, productId) {
     response.writeHead(404, {'Content-Type' : 'text/html'}); 
     response.write('NOT FOUND'); 
     response.end(); 
-    }
+    }  
 }
 
 exports.route = route;
